@@ -42146,15 +42146,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: "Cormorant Garamond";
   font-weight: 700;
   font-size: 1.25rem;
-  margin: -32px auto 0 172px;
-  padding: 0;
-}
-
-.u-header .u-btn-3 {
-  font-family: "Cormorant Garamond";
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: -32px 80px 0 auto;
+  margin: -32px auto 0;
   padding: 0;
 }
 @media (max-width: 1199px) {
@@ -42190,13 +42182,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-btn-2 {
     border-style: solid;
-    margin-top: 20px;
-    margin-left: 88px;
-  }
-
-  .u-header .u-btn-3 {
-    border-style: solid;
-    margin-right: 0;
+    margin-top: -32px;
   }
 }
 @media (max-width: 991px) {
@@ -42219,9 +42205,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-layout-cell-3 {
     min-height: 100px;
   }
-  .u-header .u-btn-2 {
-    margin-left: 0;
-  }
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
@@ -42238,27 +42221,31 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 242px;
+    min-height: 338px;
+  }
+
+  .u-header .u-layout-wrap-1 {
+    margin-bottom: 1px;
   }
 
   .u-header .u-layout-cell-1 {
-    min-height: 88px;
+    min-height: 193px;
   }
 
   .u-header .u-image-1 {
-    height: 98px;
-    width: 105px;
+    height: 190px;
+    width: 203px;
+    margin-right: 47px;
     margin-left: auto;
-    margin-right: auto;
   }
 
   .u-header .u-layout-cell-2 {
-    min-height: 67px;
+    min-height: 75px;
   }
 
   .u-header .u-container-layout-2 {
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .u-header .u-text-1 {
@@ -42275,18 +42262,15 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .u-header .u-btn-1 {
-    margin-top: 17px;
+    margin-top: 19px;
+    margin-left: 49px;
   }
 
   .u-header .u-btn-2 {
-    margin-top: -32px;
-    margin-left: 119px;
-  }
-
-  .u-header .u-btn-3 {
-    margin-right: auto;
-    margin-left: 211px;
+    margin-top: -34px;
+    margin-right: 64px;
   }
 }
  .u-footer {
