@@ -5,13 +5,13 @@
 .u-section-1 .u-image-1 {
   width: 407px;
   height: 305px;
-  margin: 33px auto 0;
+  margin: 34px auto 0;
 }
 
 .u-section-1 .u-text-1 {
   font-family: "Cormorant Garamond";
   font-size: 2.25rem;
-  margin: 33px auto 60px;
+  margin: 32px auto 60px;
 }
 
 @media (max-width: 575px) {
@@ -24,23 +24,23 @@
     height: 255px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 594px;
+  min-height: 516px;
 }
 
 .u-section-2 .u-list-1 {
   grid-template-rows: repeat(1, auto);
-  height: auto;
-  margin: 52px 0;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 
 .u-section-2 .u-repeater-1 {
   grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-  min-height: 490px;
+  min-height: 471px;
   grid-gap: 10px;
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 0 30px 30px;
+  padding: 0 30px 21px;
 }
 
 .u-section-2 .u-image-1 {
@@ -100,7 +100,7 @@
 }
 
 .u-section-2 .u-container-layout-3 {
-  padding: 0 30px 30px;
+  padding: 0 30px 21px;
 }
 
 .u-section-2 .u-image-3 {
@@ -134,8 +134,11 @@
   }
 
   .u-section-2 .u-list-1 {
-    margin-right: initial;
-    margin-left: initial;
+    height: auto;
+  }
+
+  .u-section-2 .u-repeater-1 {
+    min-height: 490px;
   }
 
   .u-section-2 .u-image-1 {
@@ -254,8 +257,6 @@
 
   .u-section-2 .u-list-1 {
     margin-top: 1px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-2 .u-container-layout-1 {
